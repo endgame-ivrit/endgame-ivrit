@@ -70,7 +70,7 @@ export default {
       You have <span class="dp-text">{{ format(doomedParticles, 2) }}</span> {{ pluralize("Doomed Particle", doomedParticles) }}.
     <br>
     </div>
-    <span>You have <span class="c-game-header__antimatter">{{ format(antimatter, 2, 1) }}</span>אנטי-חומר.</span>
+    <span>You have <span class="c-game-header__antimatter">{{ format(antimatter, 2, 1) }}</span> אנטי-חומר.</span>
     <div
       v-if="hasRealityButton"
       class="c-reality-container"
