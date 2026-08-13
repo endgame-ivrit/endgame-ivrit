@@ -73,15 +73,15 @@ export default {
     >
       <span class="l-intro-text">MAY 2ND 2113</span>
       <br>
-      <span class="l-intro-text" :style="{ opacity: opac1 }">LOCATION: ANTI-709B</span>
+      <span class="l-intro-text" :style="{ opacity: opac1 }">מיקום: ANTI-709B</span>
     </div>
     <div
       v-if="!introFrozen && introTick > 20000 && introTick < 30000"
       class="l-prologue-text--alternate"
     >
-      <span class="l-intro-text--alternate">FIVE</span>
-      <span class="l-intro-text--alternate" :style="{ opacity: opac2 }">YEARS</span>
-      <span class="l-intro-text--alternate" :style="{ opacity: opac3 }">LATER</span>
+      <span class="l-intro-text--alternate">אחרי</span>
+      <span class="l-intro-text--alternate" :style="{ opacity: opac2 }">חמש</span>
+      <span class="l-intro-text--alternate" :style="{ opacity: opac3 }">שנים</span>
     </div>
     <div
       v-if="!introFrozen && introTick > 50000 && introTick < 60000"
