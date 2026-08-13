@@ -47,7 +47,7 @@ export default {
       v-if="introFrozen && introTick === 0"
     >
       <div class="l-intro-options-spacing">
-        <span class="l-intro-options-text">האם אתה חדש בעולם הקיום?</span>
+        <span class="l-intro-options-text" dir="rtl">חדש בעולם הקיום?</span>
         <br>
         <PrimaryButton
           class="o-primary-btn--subtab-option"
