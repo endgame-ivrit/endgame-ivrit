@@ -57,7 +57,7 @@ export default {
         </PrimaryButton>
       </div>
       <div class="l-intro-options-spacing">
-        <span class="l-intro-options-text">או שפשוט איבדת את דרכך?</span>
+        <span class="l-intro-options-text" dir="rtl">או שפשוט איבדת את דרכך?</span>
         <br>
         <PrimaryButton
           class="o-primary-btn--subtab-option"
@@ -71,9 +71,9 @@ export default {
       v-if="!introFrozen && introTick > 0 && introTick < 10000"
       class="l-prologue-text"
     >
-      <span class="l-intro-text">MAY 2ND 2113</span>
+      <span class="l-intro-text" dir="rtl">2 מאי 2113</span>
       <br>
-      <span class="l-intro-text" :style="{ opacity: opac1 }">מיקום: ANTI-709B</span>
+      <span class="l-intro-text" :style="{ opacity: opac1 }" dir="rtl">מיקום: ANTI-709B</span>
     </div>
     <div
       v-if="!introFrozen && introTick > 20000 && introTick < 30000"
@@ -87,10 +87,10 @@ export default {
       v-if="!introFrozen && introTick > 50000 && introTick < 60000"
       class="l-prologue-text--alternate"
     >
-      <div>
-        <span class="l-logo-color-one">ANTI</span><span class="l-logo-color-two">MATTER </span><span class="l-intro-text"> DIMENSIONS</span>
+      <div dir="rtl">
+        <span class="l-logo-color-one">אנטי-</span><span class="l-logo-color-two">חומר</span><span class="l-intro-text"> מידות</span>
         <br>
-        <span class="l-logo-color-three" :style="{ opacity: opac4 }">ENDGAME</span>
+        <span class="l-logo-color-three" :style="{ opacity: opac4 }">הסופי</span>
       </div>
     </div>
   </div>
