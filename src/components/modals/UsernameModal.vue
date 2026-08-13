@@ -39,14 +39,14 @@ export default {
     @confirm="saveUsername"
   >
     <template #header>
-      ENTER USERNAME
+      הזן שם משתמש
     </template>
-    <div class="c-modal-message__text">
-      Please confirm your username.
-      <span class="c-modal-username-danger">You can only choose your username once.</span>
-      Type in your desired username to confirm.
+    <div class="c-modal-message__text" dir="rtl">
+      אנא אשר את שם המשתמש שלך.
+      <span class="c-modal-username-danger">ניתן לבחור את שם המשתמש שלך רק פעם אחת.</span>
+      הקלד את שם המשתמש הרצוי לאישור.
       <div class="c-modal-username-danger">
-        THIS ACTION IS IRREVERSIBLE
+        פעולה זו בלתי הפיכה
       </div>
     </div>
     <input
@@ -61,14 +61,14 @@ export default {
         v-if="notEmpty"
         class="c-modal-username-danger"
       >
-        Username confirmed - are you sure this is your desired username?
+        שם המשתמש אושר - האם אתה בטוח שזה שם המשתמש הרצוי לך?
       </div>
       <div v-else>
-        Please type something.
+        אנא הקלד משהו.
       </div>
     </div>
     <template #confirm-text>
-      CONFIRM
+      אשר
     </template>
   </ModalWrapperChoice>
 </template>

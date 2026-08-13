@@ -73,11 +73,12 @@ export default {
     >
       <span class="l-intro-text" dir="rtl">2 מאי 2113</span>
       <br>
-      <span class="l-intro-text" :style="{ opacity: opac1 }" dir="rtl">מיקום: ANTI-709B</span>
+      <span class="l-intro-text" :style="{ opacity: opac1 }" dir="rtl">מיקום: אנטי-709B</span>
     </div>
     <div
       v-if="!introFrozen && introTick > 20000 && introTick < 30000"
       class="l-prologue-text--alternate"
+      dir="rtl"
     >
       <span class="l-intro-text--alternate">אחרי</span>
       <span class="l-intro-text--alternate" :style="{ opacity: opac2 }">חמש</span>
