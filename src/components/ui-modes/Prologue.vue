@@ -47,23 +47,23 @@ export default {
       v-if="introFrozen && introTick === 0"
     >
       <div class="l-intro-options-spacing">
-        <span class="l-intro-options-text">Are you new to the Realm of Existence?</span>
+        <span class="l-intro-options-text">האם אתה חדש בעולם הקיום?</span>
         <br>
         <PrimaryButton
           class="o-primary-btn--subtab-option"
           @click="startGame"
         >
-          Start New Game
+          התחל משחק חדש
         </PrimaryButton>
       </div>
       <div class="l-intro-options-spacing">
-        <span class="l-intro-options-text">Or have you simply lost your way?</span>
+        <span class="l-intro-options-text">או שפשוט איבדת את דרכך?</span>
         <br>
         <PrimaryButton
           class="o-primary-btn--subtab-option"
           @click="importSave"
         >
-          Import Save
+          ייבוא ​​שמירה
         </PrimaryButton>
       </div>
     </div>

@@ -65,7 +65,7 @@ export default {
       const lockedText = this.lockedAt === undefined
         ? ""
         : ` (${formatInt(this.infinities)}/${formatInt(this.lockedAt)})`;
-      return `Locked${lockedText}`;
+      return `נעול${lockedText}`;
     }
   },
   methods: {
